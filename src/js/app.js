@@ -1,4 +1,4 @@
-import GameSavingLoader from './GameSavingLoader.js';
+import GameSavingLoader from './GameSavingLoader';
 
 GameSavingLoader.load().then((saving) => {
   // saving объект класса GameSaving
